@@ -45,6 +45,10 @@ group :development, :test do
 end
 
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-linkedin'
 
 # CanCan is an authorization library
 gem 'cancancan', '~> 1.10'
