@@ -34,7 +34,7 @@ hr.light {
 }
 
 a {
-    color: #9c27b0;
+    /*color: #9c27b0;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -42,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #9c27c1;
+    /*color: #9c27c1;*/
     outline: 0;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .text-primary {
-    color: #9c27b0;
+    color: #fff;
 }
 
 .modal-content {
@@ -523,4 +523,17 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.landing-footer{
+    margin-left: 0 !important;
+}
+
+.x_panel.black{
+    background-color: #282828;
+    border: none;
+}
+
+.btn.dark{
+    background-color: #337ab7;
 }

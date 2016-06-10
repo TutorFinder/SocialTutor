@@ -1,0 +1,404 @@
+<nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header" style="background-color: transparent;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/"> Social Tutor</a>
+        </div>
+        <div class="navbar-collapse collapse" id="bs-navbar">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="page-scroll" href="/#one">Inicio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#two">Informacion</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#three">Galeria</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#four">Que Encontrar</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#last">Contacto</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="/users/sign_in">LogIn</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel">
+      <div class="x_title">
+        <h2 style="font-size: 2em;"><small> Perfil de Usuario</small></h2>
+        <ul class="nav navbar-right panel_toolbox">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Settings 1</a>
+              </li>
+              <li><a href="#">Settings 2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="x_content">
+        <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
+          <div class="profile_img">
+            <div id="crop-avatar">
+              <!-- Current avatar -->
+              <img class="img-responsive avatar-view" src="/images/profile.png" alt="Avatar" title="Change the avatar">
+            </div>
+          </div>
+          <h3>Fidel Flores</h3>
+
+          <ul class="list-unstyled user_data">
+            <li><i class="fa fa-map-marker user-profile-icon"></i> Monterrey, NL
+            </li>
+
+            <li>
+              <i class="fa fa-briefcase user-profile-icon"></i> Ingeniero Bioquimico
+            </li>
+
+            <li class="m-top-xs">
+              <i class="fa fa-external-link user-profile-icon"></i>
+              <a href="http://www.kimlabs.com/profile/" target="_blank">www.i2d.in</a>
+            </li>
+          </ul>
+
+          <a class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Editar Perfil</a>
+          <br>
+
+          <!-- Last Video -->
+          <h4>Ultima Ponencia</h4>
+          <ul class="list-unstyled user_data">
+          	<li>
+          		<iframe  src="https://www.youtube.com/embed/mGUNd__3jBg" frameborder="0" allowfullscreen></iframe>
+          	</li>
+          </ul>
+
+          <!-- start skills -->
+          <h4>Skills</h4>
+          <ul class="list-unstyled user_data">
+            <li>
+              <p>Quimica</p>
+              <div class="progress progress_sm">
+                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50" aria-valuenow="49" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li>
+              <p>Nanotecnologia</p>
+              <div class="progress progress_sm">
+                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="70" aria-valuenow="69" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li>
+              <p>Energia</p>
+              <div class="progress progress_sm">
+                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="30" aria-valuenow="29" style="width: 30%;"></div>
+              </div>
+            </li>
+            <li>
+              <p>Potencia</p>
+              <div class="progress progress_sm">
+                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50" aria-valuenow="49" style="width: 50%;"></div>
+              </div>
+            </li>
+          </ul>
+          <!-- end of skills -->
+
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+
+          <div class="profile_title">
+            <div class="col-md-6">
+              <h2>Reporte de actividad</h2>
+            </div>
+            <div class="col-md-6">
+              <div id="reportrange" class="pull-right" style="margin-top: 5px; background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #E6E9ED">
+                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                <span>10 Jun 2016, 10 Jul 2016</span> <b class="caret"></b>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  
+                  <div class="x_content">
+
+                    <div id='calendar'></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+
+
+          <div class="" role="tabpanel" data-example-id="togglable-tabs">
+            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#tab_content0" role="tab" id="profile-tab0" data-toggle="tab" aria-expanded="false">Semblanza</a>
+              </li>
+              <li role="presentation" class=""><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Actividad Reciente</a>
+              </li>
+              <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Adscripcion</a>
+              </li>
+              <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Intereses</a>
+              </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div role="tabpanel" class="tab-pane fade active in" id="tab_content0" aria-labelledby="profile-tab">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure reprehenderit impedit natus a sit eveniet ab nostrum, hic necessitatibus optio atque illo eligendi eius omnis. Recusandae tempora aliquid doloribus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita suscipit harum autem molestiae incidunt quisquam et quidem cum, non aliquam aspernatur ducimus distinctio impedit placeat esse pariatur! Debitis, dicta!</p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade " id="tab_content1" aria-labelledby="home-tab">
+
+                <!-- start recent activity -->
+                <ul class="messages">
+                  <li>
+                    <img src="/images/img.jpg" class="avatar" alt="Avatar">
+                    <div class="message_date">
+                      <h3 class="date text-info">24</h3>
+                      <p class="month">May</p>
+                    </div>
+                    <div class="message_wrapper">
+                      <h4 class="heading">Desmond Davison</h4>
+                      <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                      <br>
+                      <p class="url">
+                        <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                        <a href="#"><i class="fa fa-paperclip"></i> User Acceptance Test.doc </a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="/images/esau.jpg" class="avatar" alt="Avatar">
+                    <div class="message_date">
+                      <h3 class="date text-error">21</h3>
+                      <p class="month">May</p>
+                    </div>
+                    <div class="message_wrapper">
+                      <h4 class="heading">Esau Ortega</h4>
+                      <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                      <br>
+                      <p class="url">
+                        <span class="fs1" aria-hidden="true" data-icon=""></span>
+                        <a href="#" data-original-title="">Download</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="/images/img.jpg" class="avatar" alt="Avatar">
+                    <div class="message_date">
+                      <h3 class="date text-info">24</h3>
+                      <p class="month">May</p>
+                    </div>
+                    <div class="message_wrapper">
+                      <h4 class="heading">Desmond Davison</h4>
+                      <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                      <br>
+                      <p class="url">
+                        <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                        <a href="#"><i class="fa fa-paperclip"></i> User Acceptance Test.doc </a>
+                      </p>
+                    </div>
+                  </li>
+
+                </ul>
+                <!-- end recent activity -->
+
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+
+                <!-- start user projects -->
+                <table class="data table table-striped no-margin">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Titulo</th>
+                      <th>Institucion</th>
+                      <th>Ranking</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>New Company Takeover Review</td>
+                      <td>Deveint Inc</td>
+                      <td class="vertical-align-mid">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success" data-transitiongoal="35" aria-valuenow="35" style="width: 35%;"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>New Partner Contracts Consultanci</td>
+                      <td>Deveint Inc</td>
+                      <td class="vertical-align-mid">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-danger" data-transitiongoal="15" aria-valuenow="15" style="width: 15%;"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Partners and Inverstors report</td>
+                      <td>Deveint Inc</td>
+                      <td class="vertical-align-mid">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success" data-transitiongoal="45" aria-valuenow="45" style="width: 45%;"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>New Company Takeover Review</td>
+                      <td>Deveint Inc</td>
+                      <td class="vertical-align-mid">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success" data-transitiongoal="75" aria-valuenow="75" style="width: 75%;"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- end user projects -->
+
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
+                <ul>
+                	<li>Lorem Ipsum</li>
+                	<li>Lorem Ipsum</li>
+                	<li>Lorem Ipsum</li>
+                	<li>Lorem Ipsum</li>
+                	<li>Lorem Ipsum</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- calendar modal -->
+    <div id="CalenderModalNew" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Nuevo Registro</h4>
+          </div>
+          <div class="modal-body">
+            <div id="testmodal" style="padding: 5px 20px;">
+              <form id="antoform" class="form-horizontal calender" role="form">
+                <div class="form-group">
+                  <label class="col-sm-3 control-label">Tema</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="title" name="title">
+                  </div>
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Correo</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="email" name="email">
+                  </div>
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Telefono</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="phone" name="phone">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-3 control-label">Descripcion</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" style="height:55px;" id="descr" name="descr"></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default antoclose" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary antosubmit">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="CalenderModalEdit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel2">Editar Registro</h4>
+          </div>
+          <div class="modal-body">
+
+            <div id="testmodal2" style="padding: 5px 20px;">
+              <form id="antoform2" class="form-horizontal calender" role="form">
+                <div class="form-group">
+                  <label class="col-sm-3 control-label">Tema</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="title2" name="title2">
+                  </div>
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Correo</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="email" name="email">
+                  </div>
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Telefono</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="phone" name="phone">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-3 control-label">Descripcion</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" style="height:55px;" id="descr2" name="descr"></textarea>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default antoclose2" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary antosubmit2">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fc_create" data-toggle="modal" data-target="#CalenderModalNew"></div>
+    <div id="fc_edit" data-toggle="modal" data-target="#CalenderModalEdit"></div>
+    <!-- /calendar modal -->
+
+
+ <!-- FullCalendar -->
+    <script>
+      
+    </script>
+    <!-- /FullCalendar -->

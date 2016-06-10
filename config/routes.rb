@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'talkers/index'
+
+  get 'talkers/show'
+
+  get 'talkers/edit'
+
+  get 'talkers/update'
+
+  get 'talkers/destroy'
+
+  get 'talkers/create'
+
   devise_for :users
   
   get 'home/index'
