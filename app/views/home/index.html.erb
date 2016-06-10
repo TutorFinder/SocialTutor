@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#first"> Social Tutor</a>
+            <a class="navbar-brand page-scroll" href="#first"> zuitch</a>
         </div>
         <div class="navbar-collapse collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
@@ -48,7 +48,11 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
+                <% if user_signed_in? %>
+                    <a rel="nofollow" data-method="delete" href="/users/sign_out" data-placement="top" title="Logout">Log Out</a>
+                <% else %>
                     <a class="page-scroll" href="/users/sign_in">LogIn</a>
+                <% end %>
                 </li>
             </ul>
         </div>
@@ -57,7 +61,7 @@
 <header id="first">
     <div class="header-content">
         <div class="inner">
-            <h1 class="cursive">Social Tutor</h1>
+            <h1 class="cursive">Zuitch</h1>
             <h4>Un lugar para conectar en conocimiento.</h4>
             <hr>
             <div class="row">
@@ -508,7 +512,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/fhCY_8avhWM" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/w2itwFJCgFQ" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -699,7 +703,7 @@
             </div>
         </div>
         <br/>
-        <span class="pull-right text-muted small"><a href="http://www.i2d.in">Social Tutor by TutorFinder team</a> ©2016</span>
+        <span class="pull-right text-muted small"><a href="http://www.i2d.in">Zuitch by cienciando team</a> ©2016</span>
     </div>
 </footer>
 <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
